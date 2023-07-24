@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "etGlEwXL/ZB3lH7QL0AsK6B0W1EAlCt6flmHPPPK2PGasFRmMqHgOZ2EkLsmXU9sY/h32j+6DosqpNPD10EEUg==",
+  "success": true,
+  "projectFilePath": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp\\DiegoApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dmejia\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dmejia\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\dmejia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
