@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp.Android\\DiegoApp.Android.csproj",
+      "projectUniqueName": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp.Android\\DiegoApp.Android.csproj",
       "projectName": "DiegoApp.Android",
-      "projectPath": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp.Android\\DiegoApp.Android.csproj",
+      "projectPath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp.Android\\DiegoApp.Android.csproj",
       "packagesPath": "C:\\Users\\dmejia\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp.Android\\obj\\",
+      "outputPath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp\\DiegoApp.csproj": {
-              "projectPath": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp\\DiegoApp.csproj"
+            "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp\\DiegoApp.csproj": {
+              "projectPath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp\\DiegoApp.csproj"
             }
           }
         }
@@ -3452,14 +3452,6 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
-          },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.7.0, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+vljoHwvAJdV3Q/VI66fH+CRUZCXez1OsMk/bvg+E2Z8ygTVHDrNySlmRHgTi/bNvi/nghpP2z1M4rECRAX5GQ==",
+  "dgSpecHash": "nQD9FqLC59ZieU1UhnbHivpb09ZAkzVklD/HgG8Vb5DkURnmVcqhHydDyGyQh/pcNYAertfGr5GwkGlFlY3mKg==",
   "success": true,
-  "projectFilePath": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp.Android\\DiegoApp.Android.csproj",
+  "projectFilePath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp.Android\\DiegoApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dmejia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

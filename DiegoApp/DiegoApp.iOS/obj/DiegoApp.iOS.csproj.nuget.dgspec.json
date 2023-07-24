@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp.iOS\\DiegoApp.iOS.csproj": {}
+    "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp.iOS\\DiegoApp.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp.iOS\\DiegoApp.iOS.csproj": {
+    "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp.iOS\\DiegoApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp.iOS\\DiegoApp.iOS.csproj",
+        "projectUniqueName": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp.iOS\\DiegoApp.iOS.csproj",
         "projectName": "DiegoApp.iOS",
-        "projectPath": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp.iOS\\DiegoApp.iOS.csproj",
+        "projectPath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp.iOS\\DiegoApp.iOS.csproj",
         "packagesPath": "C:\\Users\\dmejia\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp.iOS\\obj\\",
+        "outputPath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp\\DiegoApp.csproj": {
-                "projectPath": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp\\DiegoApp.csproj"
+              "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp\\DiegoApp.csproj": {
+                "projectPath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp\\DiegoApp.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp\\DiegoApp.csproj": {
+    "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp\\DiegoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp\\DiegoApp.csproj",
+        "projectUniqueName": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp\\DiegoApp.csproj",
         "projectName": "DiegoApp",
-        "projectPath": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp\\DiegoApp.csproj",
+        "projectPath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp\\DiegoApp.csproj",
         "packagesPath": "C:\\Users\\dmejia\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyecto Xamarin Mobile\\Diego_Xamarin\\DiegoApp\\DiegoApp\\obj\\",
+        "outputPath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
