@@ -1,5 +1,4 @@
-﻿using DiegoApp.Services;
-using DiegoApp.Views;
+﻿using DiegoApp.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,8 +11,9 @@ namespace DiegoApp
         public App()
         {
             InitializeComponent();
+            Startup.Initialize();
 
-            DependencyService.Register<MockDataStore>();
+
             MainPage = new AppShell();
         }
 

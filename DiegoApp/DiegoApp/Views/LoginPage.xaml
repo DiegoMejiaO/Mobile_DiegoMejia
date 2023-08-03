@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:viewModels="clr-namespace:DiegoApp.ViewModels"
+             xmlns:local="clr-namespace:DiegoApp;assembly=DiegoApp"
              mc:Ignorable="d"
              x:Class="DiegoApp.Views.LoginPage"
              Shell.NavBarIsVisible="False">
@@ -12,6 +13,7 @@
     </ContentPage.BindingContext >
     <ContentPage.Content>
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
+            <Image Source="{local:ImageResource DiegoApp.Resources.Images.airbus-a380.jpg}" WidthRequest="200" HeightRequest="200"/>
             <Entry Text="{Binding Username}" Placeholder="Ingrese su usuario" Margin="10"/>
             <Entry Text="{Binding Password}" Placeholder="Ingrese su password" IsPassword="True" Margin="10"/>
 
