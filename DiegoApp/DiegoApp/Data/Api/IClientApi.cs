@@ -1,16 +1,15 @@
 ﻿using DiegoApp.Data.Models;
 using Refit;
-using System;
+using System.Net.Http;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace DiegoApp.Services
+namespace DiegoApp.Data.API
 {
     public interface IClientApi
     {
         [Get("/Clients")]
-        Task<List<Client>> GetClientsAsync();
+        Task<List<Client>> GetClients();
     }
 
 }

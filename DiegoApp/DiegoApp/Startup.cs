@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using DiegoApp.Data.API;
 using DiegoApp.Helpers.HttpMessageHandlers;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
@@ -16,9 +17,9 @@ namespace DiegoApp
     internal class Startup
     {
         private const string INTERFACE_PREFIX = "I";
-        private const string SERVICES_NAMESPACE = "ExampleApp.Services";
+        private const string SERVICES_NAMESPACE = "DiegoApp.Services";
         //private const string SINGLE_INSTANCE_SERVICES_NAMESPACE = "ExampleApp.Services.SingleInstance";
-        private const string VIEW_MODELS_NAMESPACE = "ExampleApp.ViewModels";
+        private const string VIEW_MODELS_NAMESPACE = "DiegoApp.ViewModels";
 
         private static IContainer _container;
 

@@ -1,4 +1,5 @@
-﻿using DiegoApp.Data.Models;
+﻿using DiegoApp.Data.API;
+using DiegoApp.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -23,7 +24,7 @@ namespace DiegoApp.Services
 
             try
             {
-                var response = await _clientApi.GetClientsAsync();
+                var response = await _clientApi.GetClients();
                 clients = response.ToList();
                 return clients;
             }

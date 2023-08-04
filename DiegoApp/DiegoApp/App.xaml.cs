@@ -11,9 +11,8 @@ namespace DiegoApp
         public App()
         {
             InitializeComponent();
+
             Startup.Initialize();
-
-
             MainPage = new AppShell();
         }
 
