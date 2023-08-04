@@ -79,10 +79,8 @@ namespace DiegoApp.ViewModels
 
         public Command LoginCommand { get; }
 
-        private readonly IClientService _clientService;
-        public LoginViewModel(IClientService clientService)
+        public LoginViewModel()
         {
-            _clientService = clientService;
             LoginCommand = new Command(OnLoginClicked);
         }
 

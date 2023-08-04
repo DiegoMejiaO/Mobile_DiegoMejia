@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UTrS8LrIsTe6i/cGuW9Ly8Sof8eavRZ2WS8+uSNRffn76Uav7fzFlEUEvqluTXTsOPGNGhEHxM0Qg2wxxizYEA==",
+  "dgSpecHash": "5Z7WJj5CpzYvGLm8n86+COx5cirYqV1S0sQ7F102NmM5KtSfjKQBPR0208DPOoN6h3e1PhWEHq2nWBq6gcgrag==",
   "success": true,
   "projectFilePath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp.Android\\DiegoApp.Android.csproj",
   "expectedPackageFiles": [
@@ -80,6 +80,7 @@
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.androidx.versionedparcelable\\1.1.1.8\\xamarin.androidx.versionedparcelable.1.1.1.8.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.8\\xamarin.androidx.viewpager.1.0.0.8.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
+    "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.6\\xamarin.communitytoolkit.2.0.6.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.forms\\5.0.0.2578\\xamarin.forms.5.0.0.2578.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",

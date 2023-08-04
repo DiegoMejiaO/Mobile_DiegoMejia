@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Reflection;
 using Xamarin.Forms;
 
-namespace DiegoApp.Helpers
+namespace DiegoApp.Utilities
 {
     public class ViewModelLocator
     {
