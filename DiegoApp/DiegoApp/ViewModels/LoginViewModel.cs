@@ -1,4 +1,5 @@
-﻿using DiegoApp.Views;
+﻿using DiegoApp.Services;
+using DiegoApp.Views;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -78,8 +79,10 @@ namespace DiegoApp.ViewModels
 
         public Command LoginCommand { get; }
 
-        public LoginViewModel()
+        private readonly IClientService _clientService;
+        public LoginViewModel(IClientService clientService)
         {
+            _clientService = clientService;
             LoginCommand = new Command(OnLoginClicked);
         }
 

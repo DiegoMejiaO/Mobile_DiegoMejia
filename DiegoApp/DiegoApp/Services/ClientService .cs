@@ -24,7 +24,7 @@ namespace DiegoApp.Services
 
             try
             {
-                var response = await _clientApi.GetClients();
+                var response = await _clientApi.GetClientsAsync();
                 clients = response.ToList();
                 return clients;
             }
