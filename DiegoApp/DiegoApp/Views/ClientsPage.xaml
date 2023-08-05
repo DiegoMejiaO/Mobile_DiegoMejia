@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:DiegoApp.ViewModels"
              xmlns:models="clr-namespace:DiegoApp.Data.Models"
-             xmlns:utility="clr-namespace:DiegoApp.Utilities"
-             utility:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:helpers="clr-namespace:DiegoApp.Helpers"
+             helpers:ViewModelLocator.AutoWireViewModel="True"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:DataType="viewModels:ClientsViewModel"
              x:Class="DiegoApp.Views.ClientsPage">

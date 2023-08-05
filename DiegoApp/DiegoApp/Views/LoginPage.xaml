@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:viewModels="clr-namespace:DiegoApp.ViewModels"
              xmlns:local="clr-namespace:DiegoApp;assembly=DiegoApp"
-             xmlns:helpers="clr-namespace.DiegoApp.Helpers"
+             xmlns:helpers="clr-namespace:DiegoApp.Helpers"
              helpers:ViewModelLocator.AutoWireViewModel="True"
              x:DataType="viewModels:LoginViewModel"
              mc:Ignorable="d"

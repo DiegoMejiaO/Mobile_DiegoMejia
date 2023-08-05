@@ -22,9 +22,11 @@ namespace DiegoApp.ViewModels
             _clientService = clientService;
         }
 
-        public ObservableCollection<Client> Clients { get; set; } = new ObservableCollection<Client>();
+        #region Properties
+        public ObservableRangeCollection<Client> Clients { get; set; } = new ObservableRangeCollection<Client>();
 
         public ICommand AppearingCommand { get; set; }
+        #endregion
 
         private async Task OnAppearingAsync()
         {
@@ -37,7 +39,7 @@ namespace DiegoApp.ViewModels
             {
                 IsBusy = true;
                 var clients = await _clientService.GetClientsAsync();
-                if (clients != null)
+                if (clients.Count > 0)
                 {
                     Clients.ReplaceRange(clients);
                 }

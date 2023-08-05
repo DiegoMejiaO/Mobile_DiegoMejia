@@ -83,3 +83,4 @@ C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSim
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\System.Text.Encodings.Web.dll
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\System.Text.Json.dll
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\obj\iPhoneSimulator\Debug\DiegoApp.iOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.CommunityToolkit.dll
