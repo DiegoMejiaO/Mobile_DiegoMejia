@@ -94,7 +94,7 @@ namespace DiegoApp.ViewModels
                     name = "Diego Mauricio Mejia Ospina";
                     WelcomeMessage = "Inicio de sesión exitoso, " + "¡Bienvenido! " + name + "!";
                     MessageColor = Color.Green;
-                    await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
+                    await Shell.Current.GoToAsync($"//{nameof(ClientsPage)}");
                 }
                 else
                 {

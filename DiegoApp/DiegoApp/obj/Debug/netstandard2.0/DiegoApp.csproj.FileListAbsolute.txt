@@ -7,6 +7,7 @@ C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstan
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\Views\ClientsPage.xaml.g.cs
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\DiegoApp.AssemblyInfoInputs.cache
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\DiegoApp.AssemblyInfo.cs
@@ -15,4 +16,3 @@ C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstan
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\DiegoApp.dll
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\refint\DiegoApp.dll
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\DiegoApp.pdb
-C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\Views\ClientsPage.xaml.g.cs
