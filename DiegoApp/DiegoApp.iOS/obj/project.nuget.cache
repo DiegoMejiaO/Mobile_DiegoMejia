@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jevYY0VhJBwl+N7B1IJZ/G/Ehoa8CuF/XF870hhK0LeA8SNcbZwvpDeUhAH1cyyKhDo5fMwYK7byWSCHy1ba2Q==",
+  "dgSpecHash": "JvnL5tYglEzY9H8WvlQ+2AaORGO4ICnqVholFylJ369OEpQYyoIOIBkNpVkdUnqJmIlnyknIH8edzjxk1RE2JQ==",
   "success": true,
   "projectFilePath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp.iOS\\DiegoApp.iOS.csproj",
   "expectedPackageFiles": [
@@ -28,7 +28,7 @@
     "C:\\Users\\dmejia\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.6\\xamarin.communitytoolkit.2.0.6.nupkg.sha512",
-    "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.essentials\\1.7.7\\xamarin.essentials.1.7.7.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.forms\\5.0.0.2578\\xamarin.forms.5.0.0.2578.nupkg.sha512"
   ],
   "logs": []

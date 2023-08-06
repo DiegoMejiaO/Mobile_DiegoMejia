@@ -484,7 +484,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.7.0": {
+      "Xamarin.Essentials/1.7.7": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -1645,10 +1645,10 @@
         "xamarin.communitytoolkit.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.7.0": {
-      "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
+    "Xamarin.Essentials/1.7.7": {
+      "sha512": "vcRWRCO3yK1fCbcUIMVgV09x7z9SbLNhw4Tt2OYfps+YDgmGaDfw4Qn3uEKQm9LPV0S0PDklPSJT3R+7mtix/w==",
       "type": "package",
-      "path": "xamarin.essentials/1.7.0",
+      "path": "xamarin.essentials/1.7.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1683,7 +1683,7 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.7.0.nupkg.sha512",
+        "xamarin.essentials.1.7.7.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -1916,7 +1916,7 @@
       "Refit.HttpClientFactory >= 7.0.0",
       "Refit.Newtonsoft.Json >= 7.0.0",
       "Xamarin.CommunityToolkit >= 2.0.6",
-      "Xamarin.Essentials >= 1.7.0",
+      "Xamarin.Essentials >= 1.7.7",
       "Xamarin.Forms >= 5.0.0.2578"
     ]
   },
@@ -2001,7 +2001,7 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.7.0, )"
+            "version": "[1.7.7, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

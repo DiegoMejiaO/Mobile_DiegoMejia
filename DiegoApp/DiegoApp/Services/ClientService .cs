@@ -1,5 +1,6 @@
 ﻿using DiegoApp.Data.API;
 using DiegoApp.Data.Models;
+using DiegoApp.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
