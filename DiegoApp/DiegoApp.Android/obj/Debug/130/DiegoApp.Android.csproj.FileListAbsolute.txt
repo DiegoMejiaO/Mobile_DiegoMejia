@@ -702,3 +702,4 @@ C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\android\src\crc64a0e0a82d0db9a07d\Connectivity_EssentialsNetworkCallback.java
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\res\drawable\avion.jpg

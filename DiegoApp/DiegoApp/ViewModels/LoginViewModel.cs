@@ -1,4 +1,5 @@
-﻿using DiegoApp.Services;
+﻿using DiegoApp.Resx;
+using DiegoApp.Services;
 using DiegoApp.Views;
 using System;
 using System.Collections.Generic;
@@ -98,9 +99,8 @@ namespace DiegoApp.ViewModels
                 }
                 else
                 {
-                    ShowMessage = true;
-                    MessageColor = Color.Red;
-                    WelcomeMessage = "Usuario o contraseña incorrectos";
+                    await Application.Current.MainPage.DisplayAlert(AppResources.LoginPageInvalidLoginTitle,
+                        AppResources.LoginPageInvalidLoginMessage, AppResources.OkText);
                 }
             }
         }

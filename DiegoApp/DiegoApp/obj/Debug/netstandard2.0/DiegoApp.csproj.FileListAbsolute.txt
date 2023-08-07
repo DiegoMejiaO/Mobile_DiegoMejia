@@ -16,3 +16,5 @@ C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstan
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\DiegoApp.dll
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\refint\DiegoApp.dll
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\DiegoApp.pdb
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\DiegoApp.Resx.AppResources.resources
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.0\DiegoApp.csproj.GenerateResource.cache
