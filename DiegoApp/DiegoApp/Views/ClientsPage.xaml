@@ -9,10 +9,7 @@
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:DataType="viewModels:ClientsViewModel"
              x:Class="DiegoApp.Views.ClientsPage"
-             Padding="10">
-    <ContentPage.Behaviors>
-        <xct:EventToCommandBehavior EventName="Appearing" Command="{Binding AppearingCommand}"/>
-    </ContentPage.Behaviors>
+             Padding="10">    
     <ContentPage.Resources>
         <ResourceDictionary>
             <DataTemplate x:DataType="models:Client" x:Key="ClientDefaultTemplate">
@@ -61,6 +58,9 @@
                 SixToTenTemplate="{StaticResource ClientSixToTenTemplate}"/>
         </ResourceDictionary>
     </ContentPage.Resources>
+    <ContentPage.Behaviors>
+        <xct:EventToCommandBehavior EventName="Appearing" Command="{Binding AppearingCommand}"/>
+    </ContentPage.Behaviors>
     <ContentPage.Content>
         <StackLayout>
             <CollectionView ItemsSource="{Binding Clients}" EmptyView="No Clients to display"
