@@ -9858,7 +9858,7 @@ public final class R {
     public static final int abc_vector_test=0x7f070054;
     public static final int avd_hide_password=0x7f070055;
     public static final int avd_show_password=0x7f070056;
-    public static final int avion=0x7f070057;
+    public static final int avion_logo=0x7f070057;
     public static final int btn_checkbox_checked_mtrl=0x7f070058;
     public static final int btn_checkbox_checked_to_unchecked_mtrl_animation=0x7f070059;
     public static final int btn_checkbox_unchecked_mtrl=0x7f07005a;

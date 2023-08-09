@@ -14,7 +14,7 @@ namespace DiegoApp.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.2.0.99")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.2.1.111")]
 	public partial class Resource
 	{
 		
@@ -22065,7 +22065,7 @@ namespace DiegoApp.Droid
 			public const int avd_show_password = 2131165270;
 			
 			// aapt resource value: 0x7F070057
-			public const int avion = 2131165271;
+			public const int avion_logo = 2131165271;
 			
 			// aapt resource value: 0x7F070058
 			public const int btn_checkbox_checked_mtrl = 2131165272;
