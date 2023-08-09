@@ -8,10 +8,12 @@
 
   <ItemGroup>
     <None Remove="Resources\Images\airbus-a380.jpg" />
+    <None Remove="Resources\Images\avion.jpg" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Images\airbus-a380.jpg" />    
+    <EmbeddedResource Include="Resources\Images\airbus-a380.jpg" />
+    <EmbeddedResource Include="Resources\Images\avion.jpg" />    
   </ItemGroup>
 
   <ItemGroup>
