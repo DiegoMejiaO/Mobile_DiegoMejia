@@ -11,7 +11,7 @@ namespace DiegoApp
         public AppShell()
         {
             InitializeComponent();
-            
+            Routing.RegisterRoute(nameof(ClientPage), typeof(ClientPage));
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)

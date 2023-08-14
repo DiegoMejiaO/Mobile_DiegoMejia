@@ -88,6 +88,10 @@
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
     <FlyoutItem Title="Clients" Icon="icon_about.png">
+        <ShellContent Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Clients" Icon="icon_feed.png">
         <ShellContent Route="ClientsPage" ContentTemplate="{DataTemplate local:ClientsPage}" />
     </FlyoutItem>
 

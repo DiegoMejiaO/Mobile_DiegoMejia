@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
     <ProduceReferenceAssemblyInOutDir>true</ProduceReferenceAssemblyInOutDir>
   </PropertyGroup>
@@ -10,11 +10,13 @@
     <None Remove="Resources\Images\airbus-a380.jpg" />
     <None Remove="Resources\Images\avion.jpg" />
     <None Remove="Resources\Images\avion_logo.png" />
+    <None Remove="Resources\Images\xamarin_logo.png" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Resources\Images\airbus-a380.jpg" />
-    <EmbeddedResource Include="Resources\Images\avion_logo.png" />    
+    <EmbeddedResource Include="Resources\Images\avion_logo.png" />
+    <EmbeddedResource Include="Resources\Images\xamarin_logo.png" />    
   </ItemGroup>
 
   <ItemGroup>
@@ -47,6 +49,9 @@
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\AboutPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ClientPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

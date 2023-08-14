@@ -1,5 +1,6 @@
 ﻿using DiegoApp.Data.Models;
 using DiegoApp.Services;
+using DiegoApp.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -7,18 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.CommunityToolkit.ObjectModel;
+using Xamarin.Forms;
 
 namespace DiegoApp.ViewModels
 {
     public class ClientsViewModel: BaseViewModel
     {
-        private readonly IClientService _clientService;
+        private readonly IClientService _clientService;        
 
         public ClientsViewModel(IClientService clientService)
         {
             AppearingCommand = new AsyncCommand(async () => await OnAppearingAsync());
+            ClientTappedCommand = new AsyncCommand<Client>(OnClientTapped);
             Title = "Clients";
-
             _clientService = clientService;
         }
 
@@ -26,6 +28,7 @@ namespace DiegoApp.ViewModels
         public ObservableRangeCollection<Client> Clients { get; set; } = new ObservableRangeCollection<Client>();
 
         public ICommand AppearingCommand { get; set; }
+        public ICommand ClientTappedCommand { get; set; }
         #endregion
 
         private async Task OnAppearingAsync()
@@ -52,6 +55,16 @@ namespace DiegoApp.ViewModels
             {
                 IsBusy = false;
             }
+        }
+
+        private Task OnClientTapped(Client client)
+        {
+            if (client == null)
+            {
+                return Task.CompletedTask;
+            }
+            
+            return Shell.Current.GoToAsync($"{nameof(ClientPage)}?{nameof(ClientViewModel.ClientId)}={client.Id}");
         }
 
     }
