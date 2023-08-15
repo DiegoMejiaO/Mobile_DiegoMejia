@@ -44,7 +44,15 @@
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.1.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
@@ -54,7 +62,19 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Refit": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Refit.HttpClientFactory": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
@@ -66,17 +86,41 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Refit.Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
             "Xamarin.CommunityToolkit": {
               "target": "Package",
               "version": "[2.0.6, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.7, )"
+              "version": "[1.8.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2578, )"
+              "version": "[5.0.0.2612, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2612, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2612, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2612, )"
             }
           }
         }
@@ -125,7 +169,7 @@
           "dependencies": {
             "Autofac": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.1.0, )"
             },
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
@@ -153,11 +197,15 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.7, )"
+              "version": "[1.8.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2578, )"
+              "version": "[5.0.0.2612, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2612, )"
             }
           },
           "imports": [

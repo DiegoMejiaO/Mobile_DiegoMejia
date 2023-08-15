@@ -84,3 +84,5 @@ C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\obj\iPhoneSim
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\obj\iPhoneSimulator\Debug\DiegoApp.iOS.csproj.CopyComplete
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\obj\iPhoneSimulator\Debug\DiegoApp.iOS.exe
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\obj\iPhoneSimulator\Debug\DiegoApp.iOS.pdb
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll

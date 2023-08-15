@@ -15,7 +15,8 @@
         <StackLayout Padding="20" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <Label Text="{Binding Client.Name}"
                 VerticalOptions="Start" 
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center" 
+                   Style="{StaticResource Heading1}"/>
 
             <Grid ColumnDefinitions="*,*"
                   RowDefinitions="Auto,Auto,Auto,Auto,Auto">

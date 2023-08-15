@@ -11,10 +11,11 @@
              x:DataType="viewModels:LoginViewModel"
              mc:Ignorable="d"
              x:Class="DiegoApp.Views.LoginPage"
-             Shell.NavBarIsVisible="False">   
-    <ContentPage.Content>
+             Shell.NavBarIsVisible="False">
+    <ContentPage.Content>        
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Label Text="Tus Medicamentos a Tiempo" TextColor="red" FontSize="Medium" HorizontalOptions="Center"/>
+            <Label Text="Don´t Forget to Take Your Medicines" TextColor="Blue" FontSize="Title" 
+                    HorizontalOptions="Center" FontAttributes="Bold" />
             <Image Source="{local:ImageResource DiegoApp.Resources.Images.xamarin_logo.png}" WidthRequest="200" HeightRequest="200"/>
             <Entry Text="{Binding UserName}" Placeholder="{Static resx:AppResources.LoginPageUserNameText}" Margin="10" TextColor="Black"/>
             <Entry Text="{Binding Password}" Placeholder="{Static resx:AppResources.LoginPagePasswordText}" IsPassword="True" Margin="10" TextColor="Black"/>

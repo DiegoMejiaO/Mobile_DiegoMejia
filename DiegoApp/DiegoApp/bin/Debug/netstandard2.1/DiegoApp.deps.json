@@ -9,34 +9,35 @@
     ".NETStandard,Version=v2.1/": {
       "DiegoApp/1.0.0": {
         "dependencies": {
-          "Autofac": "7.0.1",
+          "Autofac": "7.1.0",
           "Autofac.Extensions.DependencyInjection": "8.0.0",
           "Newtonsoft.Json": "13.0.3",
           "Refit": "7.0.0",
           "Refit.HttpClientFactory": "7.0.0",
           "Refit.Newtonsoft.Json": "7.0.0",
           "Xamarin.CommunityToolkit": "2.0.6",
-          "Xamarin.Essentials": "1.7.7",
-          "Xamarin.Forms": "5.0.0.2578"
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612",
+          "Xamarin.Forms.Maps": "5.0.0.2612"
         },
         "runtime": {
           "DiegoApp.dll": {}
         }
       },
-      "Autofac/7.0.1": {
+      "Autofac/7.1.0": {
         "dependencies": {
           "System.Diagnostics.DiagnosticSource": "7.0.0"
         },
         "runtime": {
           "lib/netstandard2.1/Autofac.dll": {
-            "assemblyVersion": "7.0.1.0",
-            "fileVersion": "7.0.1.0"
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.0"
           }
         }
       },
       "Autofac.Extensions.DependencyInjection/8.0.0": {
         "dependencies": {
-          "Autofac": "7.0.1",
+          "Autofac": "7.1.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "runtime": {
@@ -288,7 +289,7 @@
       },
       "Xamarin.CommunityToolkit/2.0.6": {
         "dependencies": {
-          "Xamarin.Forms": "5.0.0.2578"
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "runtime": {
           "lib/netstandard2.1/Xamarin.CommunityToolkit.dll": {
@@ -297,7 +298,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.7.7": {
+      "Xamarin.Essentials/1.8.0": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
@@ -308,19 +309,30 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2578": {
+      "Xamarin.Forms/5.0.0.2612": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "5.0.0.978"
+            "fileVersion": "5.0.0.993"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "5.0.0.978"
+            "fileVersion": "5.0.0.993"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "5.0.0.978"
+            "fileVersion": "5.0.0.993"
+          }
+        }
+      },
+      "Xamarin.Forms.Maps/5.0.0.2612": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2612"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "5.0.0.993"
           }
         }
       }
@@ -332,12 +344,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Autofac/7.0.1": {
+    "Autofac/7.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-J9Iz0Q+YU3uf82i8Lee0NpQOlRYfwHxwVV26jdG3zH3LFE5Y9Rx97Mju7Nswwzh/C7kVJALkTL860Y7e+mcLaw==",
-      "path": "autofac/7.0.1",
-      "hashPath": "autofac.7.0.1.nupkg.sha512"
+      "sha512": "sha512-XCXmpxhOnuztTTRkzG+8B8KU8SR8WjBYwSntndjlsFR5lM3K/g43r9hUwewIPDBJwDrmZU3TjmNdH6s8IF3VFQ==",
+      "path": "autofac/7.1.0",
+      "hashPath": "autofac.7.1.0.nupkg.sha512"
     },
     "Autofac.Extensions.DependencyInjection/8.0.0": {
       "type": "package",
@@ -500,19 +512,26 @@
       "path": "xamarin.communitytoolkit/2.0.6",
       "hashPath": "xamarin.communitytoolkit.2.0.6.nupkg.sha512"
     },
-    "Xamarin.Essentials/1.7.7": {
+    "Xamarin.Essentials/1.8.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vcRWRCO3yK1fCbcUIMVgV09x7z9SbLNhw4Tt2OYfps+YDgmGaDfw4Qn3uEKQm9LPV0S0PDklPSJT3R+7mtix/w==",
-      "path": "xamarin.essentials/1.7.7",
-      "hashPath": "xamarin.essentials.1.7.7.nupkg.sha512"
+      "sha512": "sha512-g1yB0CkX7BVOx84P0SLm8guypbEfigqjddZsI9KgJzba6yRRcekBqDp6YTT1hO8ZcFcW8VZbsymejTJftJoQyg==",
+      "path": "xamarin.essentials/1.8.0",
+      "hashPath": "xamarin.essentials.1.8.0.nupkg.sha512"
     },
-    "Xamarin.Forms/5.0.0.2578": {
+    "Xamarin.Forms/5.0.0.2612": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cUjv81PVlNKqAYA9k8WV0JZiCxjuCLqpICfaumHeJvEBxo7qUrEIXHCyS9+tAAV1JL/qwzD/FnkdVy8gO9TWrA==",
-      "path": "xamarin.forms/5.0.0.2578",
-      "hashPath": "xamarin.forms.5.0.0.2578.nupkg.sha512"
+      "sha512": "sha512-zQcy3NJgRJnLRWQZ2TZPCgDoTDHoYskHLutKDvz1pVNtvJ8U7kkg4mE2XATs3dAkQ+oWoqB4VOBGRk9uAfoRMw==",
+      "path": "xamarin.forms/5.0.0.2612",
+      "hashPath": "xamarin.forms.5.0.0.2612.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/5.0.0.2612": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nQWQ6skgD4VhCyCu1pDvuxPPsZiaU5T4X4xn61nfT9+z5Rtx2Nq8y3pYbUhK3J7op5YyMUa9o3E6t7Y4+W5Uag==",
+      "path": "xamarin.forms.maps/5.0.0.2612",
+      "hashPath": "xamarin.forms.maps.5.0.0.2612.nupkg.sha512"
     }
   }
 }
