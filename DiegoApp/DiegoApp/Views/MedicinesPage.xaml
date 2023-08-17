@@ -9,7 +9,40 @@
                         FontAttributes="Bold"/>
                 <Entry Text="{Binding MedicineName}" Placeholder="Medicine Name" Margin="10" TextColor="Black"/>
                 <Label Text="Enter Your Date" HorizontalOptions="Start" FontSize="Body" TextColor="Black"/>
-                <DatePicker Date="{Binding EntryDate}" Margin="10" TextColor="Black" />                
+                <DatePicker Date="{Binding EntryDate}" Margin="10" TextColor="Black" />
+                <Entry Text="{Binding Quantity}" Placeholder="Quantity" Margin="10" TextColor="Black"/>
+                <Label Text="Select the Days you Take your Medications" HorizontalOptions="Center" FontSize="Medium" FontAttributes="Bold"/>
+                <Grid VerticalOptions="Start" HorizontalOptions="Start">                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.25*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.25*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <CheckBox Grid.Row="1"  Grid.Column="1" VerticalOptions="Start" Color="Blue"/>
+                    <Label Grid.Row="1" Grid.Column="2" Text="Monday" VerticalOptions="Center"/>
+                    <CheckBox Grid.Row="2"  Grid.Column="1" VerticalOptions="Center" Color="Blue"/>
+                    <Label Grid.Row="2" Grid.Column="2" Text="Tuesday" VerticalOptions="Center"/>
+                    <CheckBox Grid.Row="3"  Grid.Column="1" VerticalOptions="Center" Color="Blue"/>
+                    <Label Grid.Row="3" Grid.Column="2" Text="Wednesday" VerticalOptions="Center"/>
+                    <CheckBox Grid.Row="4"  Grid.Column="1" VerticalOptions="Center" Color="Blue"/>
+                    <Label Grid.Row="4" Grid.Column="2" Text="Thursday" VerticalOptions="Center"/>
+                    <CheckBox Grid.Row="1"  Grid.Column="3" VerticalOptions="Center" Color="Blue"/>
+                    <Label Grid.Row="1" Grid.Column="4" Text="Friday" VerticalOptions="Center"/>
+                    <CheckBox Grid.Row="2"  Grid.Column="3" VerticalOptions="Center" Color="Blue"/>
+                    <Label Grid.Row="2" Grid.Column="4" Text="Saturday" VerticalOptions="Center"/>
+                    <CheckBox Grid.Row="3"  Grid.Column="3" VerticalOptions="Center" Color="Blue"/>
+                    <Label Grid.Row="3" Grid.Column="4" Text="Sunday" VerticalOptions="Center"/>
+                </Grid>
+                <Entry Text="{Binding Hours}" Placeholder="Hours" Margin="10" TextColor="Black"/>
+                <Button VerticalOptions="Center" Text="Upload Information" Command="{Binding OnInformationClicked}"/>
             </StackLayout>
         </Frame>
     </ContentPage.Content>

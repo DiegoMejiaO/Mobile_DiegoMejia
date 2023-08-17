@@ -11,16 +11,30 @@
              x:DataType="viewModels:LoginViewModel"
              mc:Ignorable="d"
              x:Class="DiegoApp.Views.LoginPage"
-             Shell.NavBarIsVisible="False">
-    <ContentPage.Content>        
-        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Label Text="Don´t Forget to Take Your Medicines" TextColor="Blue" FontSize="Title" 
-                    HorizontalOptions="Center" FontAttributes="Bold" />
-            <Image Source="{local:ImageResource DiegoApp.Resources.Images.xamarin_logo.png}" WidthRequest="200" HeightRequest="200"/>
-            <Entry Text="{Binding UserName}" Placeholder="{Static resx:AppResources.LoginPageUserNameText}" Margin="10" TextColor="Black"/>
-            <Entry Text="{Binding Password}" Placeholder="{Static resx:AppResources.LoginPagePasswordText}" IsPassword="True" Margin="10" TextColor="Black"/>
-            <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
-            <!--<Label Text="{Binding WelcomeMessage}" FontSize="Subtitle" TextColor="{Binding MessageColor}" HorizontalOptions="Center" Margin="0,30,0,0" IsVisible="{Binding ShowMessage}"/>-->
-        </StackLayout>
-    </ContentPage.Content>
+             Shell.NavBarIsVisible="False">    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="1">            
+            <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <ScrollView Grid.Row="1">
+                        <Label Text="Don´t Forget to Take Your Medicines" FontSize="Large" HorizontalOptions="CenterAndExpand" 
+                   TextColor="red" FontAttributes="Bold" VerticalOptions="CenterAndExpand" />
+                    </ScrollView>
+                </Grid>
+                <Image Source="{local:ImageResource DiegoApp.Resources.Images.logo_medicamentos.png}" WidthRequest="200" HeightRequest="200"/>
+                <Entry Text="{Binding UserName}" Placeholder="{Static resx:AppResources.LoginPageUserNameText}" Margin="10" TextColor="Black"/>
+                <Entry Text="{Binding Password}" Placeholder="{Static resx:AppResources.LoginPagePasswordText}" IsPassword="True" Margin="10" TextColor="Black"/>
+                <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
+                <!--<Label Text="{Binding WelcomeMessage}" FontSize="Subtitle" TextColor="{Binding MessageColor}" HorizontalOptions="Center" Margin="0,30,0,0" IsVisible="{Binding ShowMessage}"/>-->
+            </StackLayout>
+        </ScrollView>        
+    </Grid>
 </ContentPage>

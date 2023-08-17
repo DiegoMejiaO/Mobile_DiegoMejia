@@ -32,7 +32,7 @@ namespace DiegoApp.ViewModels
             if (ValidateFiels() && await _accountService.LoginAsync(UserName, Password))
             {
 
-                await Shell.Current.GoToAsync($"//{nameof(ClientsPage)}");
+                await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
             }
             else
             {

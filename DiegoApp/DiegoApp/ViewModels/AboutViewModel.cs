@@ -10,7 +10,7 @@ namespace DiegoApp.ViewModels
         public AboutViewModel()
         {
             Title = "About";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https:https://www.enfermerasom.com/la-importancia-de-tomar-los-medicamentos-en-el-horario-correcto/"));
         }
 
         public ICommand OpenWebCommand { get; }
