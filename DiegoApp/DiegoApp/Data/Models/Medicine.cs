@@ -11,7 +11,7 @@ namespace DiegoApp.Data.Models
         public string Name { get; set; } = string.Empty;
         public int Quantity { get; set; }
         public string Day { get; set; } = string.Empty;
-        public int Hour { get; set; }
+        public string Hour { get; set; } = string.Empty;
     }
 
     public class ResultMedicine

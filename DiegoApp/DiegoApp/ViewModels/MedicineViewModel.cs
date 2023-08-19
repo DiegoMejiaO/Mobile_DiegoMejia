@@ -36,14 +36,14 @@ namespace DiegoApp.ViewModels
         private string _medicinename;
         private DateTime _entrydate;
         private int _quantity;
-        private int _hour;
+        private string _hour;
         private string _day;
 
         public string MedicineName { get => _medicinename; set => SetProperty(ref _medicinename, value); }
         public DateTime EntryDate { get => _entrydate; set => SetProperty(ref _entrydate, value); }
         public string Day { get => _day; set => SetProperty(ref _day, value); }
         public int Quantity { get => _quantity; set => SetProperty(ref _quantity, value); }
-        public int Hours { get => _hour; set => SetProperty(ref _hour, value); }
+        public string Hours { get => _hour; set => SetProperty(ref _hour, value); }
 
         private async Task OnAppearingAsync()
         {

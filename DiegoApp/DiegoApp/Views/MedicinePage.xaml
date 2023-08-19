@@ -20,6 +20,7 @@
             <StackLayout>
                 <Label Text="Enter Your Medications" HorizontalOptions="Center" FontSize="Title" TextColor="Red" 
                         FontAttributes="Bold"/>
+                <ProgressBar x:Name="progress" Progress=".1"/>
                 <Entry Text="{Binding MedicineName}" Placeholder="Medicine Name" Margin="10" TextColor="Black"/>
                 <Label Text="Enter Your Date" HorizontalOptions="Start" FontSize="Body" TextColor="Black"/>
                 <DatePicker Date="{Binding EntryDate}" Margin="10" TextColor="Black" />
@@ -56,9 +57,8 @@
                     <CheckBox Grid.Row="4"  Grid.Column="3" VerticalOptions="Center" Color="Blue"/>
                     <Label Grid.Row="4" Grid.Column="4" Text="All Days" VerticalOptions="Center"/>
                 </Grid>
-                <Picker x:Name="picker" Title="Select your Time" TitleColor="Black">
-                    <Picker.ItemsSource>
-                        <x:Array Type="{x:Type x:String}">
+                <Picker x:Name="picker" Title="Select your Time" TitleColor="Black" SelectedItem="{Binding Hours}">
+                    <Picker.Items>                        
                             <x:String>1:00</x:String>
                             <x:String>2:00</x:String>
                             <x:String>3:00</x:String>
@@ -82,9 +82,8 @@
                             <x:String>21:00</x:String>
                             <x:String>22:00</x:String>
                             <x:String>23:00</x:String>
-                            <x:String>00:00</x:String>                           
-                        </x:Array>
-                    </Picker.ItemsSource>                    
+                            <x:String>00:00</x:String>                       
+                    </Picker.Items>                    
                 </Picker>
                 <Button VerticalOptions="Center" Text="Upload Information" Command="{Binding UploadInformation}" />
             </StackLayout>
