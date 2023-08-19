@@ -23,7 +23,7 @@
                 <ProgressBar x:Name="progress" Progress=".1"/>
                 <Entry Text="{Binding MedicineName}" Placeholder="Medicine Name" Margin="10" TextColor="Black"/>
                 <Label Text="Enter Your Date" HorizontalOptions="Start" FontSize="Body" TextColor="Black"/>
-                <DatePicker Date="{Binding EntryDate}" Margin="10" TextColor="Black" />
+                <DatePicker Date="{Binding EntryDate}" Margin="10" TextColor="Black" MinimumDate="01/08/2023"/>
                 <Entry Text="{Binding Quantity}" Placeholder="Quantity" Margin="10" TextColor="Black"/>
                 <Label Text="Select the Days you Take your Medications" HorizontalOptions="Center" FontSize="Medium" FontAttributes="Bold"/>
                 <Grid VerticalOptions="Start" HorizontalOptions="Start">                    
