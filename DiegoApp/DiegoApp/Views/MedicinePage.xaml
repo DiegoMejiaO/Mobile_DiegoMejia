@@ -1,8 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DiegoApp.Views.MedicinesPage">    
-    <ContentPage.Content>        
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:DiegoApp.ViewModels"
+             xmlns:helpers="clr-namespace:DiegoApp.Helpers"
+             helpers:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:DataType="viewModels:MedicineViewModel"
+             mc:Ignorable="d"
+             Title="Medicine"
+             x:Class="DiegoApp.Views.MedicinePage">
+    <ContentPage.Behaviors>
+        <xct:EventToCommandBehavior EventName="Appearing" Command="{Binding AppearingCommand}"/>
+    </ContentPage.Behaviors>
+    <ContentPage.Content>
         <Frame>
             <StackLayout>
                 <Label Text="Enter Your Medications" HorizontalOptions="Center" FontSize="Title" TextColor="Red" 
@@ -40,9 +53,40 @@
                     <Label Grid.Row="2" Grid.Column="4" Text="Saturday" VerticalOptions="Center"/>
                     <CheckBox Grid.Row="3"  Grid.Column="3" VerticalOptions="Center" Color="Blue"/>
                     <Label Grid.Row="3" Grid.Column="4" Text="Sunday" VerticalOptions="Center"/>
+                    <CheckBox Grid.Row="4"  Grid.Column="3" VerticalOptions="Center" Color="Blue"/>
+                    <Label Grid.Row="4" Grid.Column="4" Text="All Days" VerticalOptions="Center"/>
                 </Grid>
-                <Entry Text="{Binding Hours}" Placeholder="Hours" Margin="10" TextColor="Black"/>
-                <Button VerticalOptions="Center" Text="Upload Information" Command="{Binding OnInformationClicked}"/>
+                <Picker x:Name="picker" Title="Select your Time" TitleColor="Black">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>1:00</x:String>
+                            <x:String>2:00</x:String>
+                            <x:String>3:00</x:String>
+                            <x:String>4:00</x:String>
+                            <x:String>5:00</x:String>
+                            <x:String>6:00</x:String>
+                            <x:String>7:00</x:String>
+                            <x:String>8:00</x:String>
+                            <x:String>9:00</x:String>
+                            <x:String>10:00</x:String>
+                            <x:String>11:00</x:String>
+                            <x:String>12:00</x:String>
+                            <x:String>13:00</x:String>
+                            <x:String>14:00</x:String>
+                            <x:String>15:00</x:String>
+                            <x:String>16:00</x:String>
+                            <x:String>17:00</x:String>
+                            <x:String>18:00</x:String>
+                            <x:String>19:00</x:String>
+                            <x:String>20:00</x:String>
+                            <x:String>21:00</x:String>
+                            <x:String>22:00</x:String>
+                            <x:String>23:00</x:String>
+                            <x:String>00:00</x:String>                           
+                        </x:Array>
+                    </Picker.ItemsSource>                    
+                </Picker>
+                <Button VerticalOptions="Center" Text="Upload Information" Command="{Binding UploadInformation}" />
             </StackLayout>
         </Frame>
     </ContentPage.Content>

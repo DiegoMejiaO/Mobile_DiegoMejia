@@ -11,7 +11,6 @@ using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms.Internals;
 using DiegoApp.Services;
-using DiegoApp.Data.Api;
 
 namespace DiegoApp
 {
@@ -45,6 +44,9 @@ namespace DiegoApp
                 .ConfigureHttpClient(c => c.BaseAddress = new Uri(Settings.ApiBaseUri))
                 .AddHttpMessageHandler<BaseAddressHandler>();
 
+            serviceCollection.AddRefitClient<IMedicineApi>(refitSettings)
+                .ConfigureHttpClient(c => c.BaseAddress= new Uri(Settings.ApiBaseUri))
+                .AddHttpMessageHandler<BaseAddressHandler>();
 
             containerBuilder.Populate(serviceCollection);
 
