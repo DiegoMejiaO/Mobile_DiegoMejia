@@ -25,7 +25,7 @@
                 <Label Text="Enter Your Date" HorizontalOptions="Start" FontSize="Body" TextColor="Black"/>
                 <DatePicker Date="{Binding EntryDate}" Margin="10" TextColor="Black" MinimumDate="08/01/2023"/>
                 <Entry Text="{Binding Quantity}" Placeholder="Quantity" Margin="10" TextColor="Black"/>
-                <Label Text="Select the Days you Take your Medications" HorizontalOptions="Center" FontSize="Medium" FontAttributes="Bold"/>
+                <Label Text="Select the Days, Hours and Frecuency you Take your Medications" HorizontalOptions="Center" FontSize="Medium" FontAttributes="Bold"/>
                 <Picker x:Name="Days" Title="Select your Day" TitleColor="Black" SelectedItem="{Binding Day}">
                     <Picker.Items>
                         <x:String>Monday</x:String>
@@ -66,6 +66,7 @@
                             <x:String>00:00</x:String>                       
                     </Picker.Items>                    
                 </Picker>
+                <Entry Text="{Binding Frecuency}" Placeholder="Frecuency" Margin="10" TextColor="Black"/>
                 <Button VerticalOptions="Center" Text="Upload Information" Command="{Binding UploadInformation}" />
             </StackLayout>
         </Frame>

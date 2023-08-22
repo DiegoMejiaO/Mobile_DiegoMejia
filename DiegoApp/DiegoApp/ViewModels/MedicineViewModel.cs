@@ -37,13 +37,15 @@ namespace DiegoApp.ViewModels
         private DateTime _entrydate;
         private int _quantity;
         private string _hour;
-        private string _day;        
+        private string _day;
+        private int _frecuency;
 
         public string MedicineName { get => _medicinename; set => SetProperty(ref _medicinename, value); }
         public DateTime EntryDate { get => _entrydate; set => SetProperty(ref _entrydate, value); }
         public string Day { get => _day; set => SetProperty(ref _day, value); }
         public int Quantity { get => _quantity; set => SetProperty(ref _quantity, value); }
         public string Hours { get => _hour; set => SetProperty(ref _hour, value); }
+        public int Frecuency { get => _frecuency; set => SetProperty(ref _frecuency, value); }  
                 
         private async Task OnAppearingAsync()
         {
@@ -83,6 +85,7 @@ namespace DiegoApp.ViewModels
                 datoMedicamento.Quantity = Quantity;
                 datoMedicamento.Day = Day;
                 datoMedicamento.Hour = Hours;
+                datoMedicamento.Frecuency = Frecuency;
 
                 long cargaMedicamentos = await _medicineService.PostCrearMedicineAsync(datoMedicamento);
 
