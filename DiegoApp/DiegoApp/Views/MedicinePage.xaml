@@ -23,41 +23,22 @@
                 <ProgressBar x:Name="progress" Progress=".1"/>
                 <Entry Text="{Binding MedicineName}" Placeholder="Medicine Name" Margin="10" TextColor="Black"/>
                 <Label Text="Enter Your Date" HorizontalOptions="Start" FontSize="Body" TextColor="Black"/>
-                <DatePicker Date="{Binding EntryDate}" Margin="10" TextColor="Black" MinimumDate="01/08/2023"/>
+                <DatePicker Date="{Binding EntryDate}" Margin="10" TextColor="Black" MinimumDate="08/01/2023"/>
                 <Entry Text="{Binding Quantity}" Placeholder="Quantity" Margin="10" TextColor="Black"/>
                 <Label Text="Select the Days you Take your Medications" HorizontalOptions="Center" FontSize="Medium" FontAttributes="Bold"/>
-                <Grid VerticalOptions="Start" HorizontalOptions="Start">                    
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                    </Grid.RowDefinitions>
-
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                        <ColumnDefinition Width="0.25*"></ColumnDefinition>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                        <ColumnDefinition Width="0.25*"></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
-                    <CheckBox Grid.Row="1"  Grid.Column="1" VerticalOptions="Start" Color="Blue"/>
-                    <Label Grid.Row="1" Grid.Column="2" Text="Monday" VerticalOptions="Center"/>
-                    <CheckBox Grid.Row="2"  Grid.Column="1" VerticalOptions="Center" Color="Blue"/>
-                    <Label Grid.Row="2" Grid.Column="2" Text="Tuesday" VerticalOptions="Center"/>
-                    <CheckBox Grid.Row="3"  Grid.Column="1" VerticalOptions="Center" Color="Blue"/>
-                    <Label Grid.Row="3" Grid.Column="2" Text="Wednesday" VerticalOptions="Center"/>
-                    <CheckBox Grid.Row="4"  Grid.Column="1" VerticalOptions="Center" Color="Blue"/>
-                    <Label Grid.Row="4" Grid.Column="2" Text="Thursday" VerticalOptions="Center"/>
-                    <CheckBox Grid.Row="1"  Grid.Column="3" VerticalOptions="Center" Color="Blue"/>
-                    <Label Grid.Row="1" Grid.Column="4" Text="Friday" VerticalOptions="Center"/>
-                    <CheckBox Grid.Row="2"  Grid.Column="3" VerticalOptions="Center" Color="Blue"/>
-                    <Label Grid.Row="2" Grid.Column="4" Text="Saturday" VerticalOptions="Center"/>
-                    <CheckBox Grid.Row="3"  Grid.Column="3" VerticalOptions="Center" Color="Blue"/>
-                    <Label Grid.Row="3" Grid.Column="4" Text="Sunday" VerticalOptions="Center"/>
-                    <CheckBox Grid.Row="4"  Grid.Column="3" VerticalOptions="Center" Color="Blue"/>
-                    <Label Grid.Row="4" Grid.Column="4" Text="All Days" VerticalOptions="Center"/>
-                </Grid>
-                <Picker x:Name="picker" Title="Select your Time" TitleColor="Black" SelectedItem="{Binding Hours}">
+                <Picker x:Name="Days" Title="Select your Day" TitleColor="Black" SelectedItem="{Binding Day}">
+                    <Picker.Items>
+                        <x:String>Monday</x:String>
+                        <x:String>Tuesday</x:String>
+                        <x:String>Wednesday</x:String>
+                        <x:String>Thursday</x:String>
+                        <x:String>Friday</x:String>
+                        <x:String>Saturday</x:String>
+                        <x:String>Sunday</x:String>
+                        <x:String>All Days</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Picker x:Name="Hours" Title="Select your Time" TitleColor="Black" SelectedItem="{Binding Hours}">
                     <Picker.Items>                        
                             <x:String>1:00</x:String>
                             <x:String>2:00</x:String>

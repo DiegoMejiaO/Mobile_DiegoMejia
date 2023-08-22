@@ -98,7 +98,7 @@ namespace DiegoApp.ViewModels
             catch (Exception ex)
             {
                  await Application.Current.MainPage.DisplayAlert(
-                 "Crear Vehiculos",
+                 "Crear Medicamentos",
                  ex.Message,
                  AppResources.OkText);
 
