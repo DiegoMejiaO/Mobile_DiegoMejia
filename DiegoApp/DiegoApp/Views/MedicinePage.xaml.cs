@@ -17,6 +17,20 @@ namespace DiegoApp.Views
         public MedicinePage()
         {
             InitializeComponent();          
-        }        
+        }
+
+        private void btn_upload_information_Clicked(object sender, EventArgs e)
+        {
+            cleanForm();
+        }
+
+        private void cleanForm()
+        {
+            _MedicineName.Text = string.Empty;
+            _Quantity.Text = string.Empty;
+            _Hours.SelectedItem = string.Empty;
+            _Days.SelectedItem = string.Empty;
+            _Frecuency.Text = string.Empty;
+        }
     }
 }

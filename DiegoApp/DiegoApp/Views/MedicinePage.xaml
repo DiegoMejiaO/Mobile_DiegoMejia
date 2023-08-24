@@ -16,30 +16,32 @@
         <xct:EventToCommandBehavior EventName="Appearing" Command="{Binding AppearingCommand}"/>
     </ContentPage.Behaviors>
     <ContentPage.Content>
-        <Frame>
-            <StackLayout>
-                <Label Text="Enter Your Medications" HorizontalOptions="Center" FontSize="Title" TextColor="Red" 
-                        FontAttributes="Bold"/>
-                <ProgressBar x:Name="progress" Progress=".1"/>
-                <Entry Text="{Binding MedicineName}" Placeholder="Medicine Name" Margin="10" TextColor="Black"/>
-                <Label Text="Enter Your Date" HorizontalOptions="Start" FontSize="Body" TextColor="Black"/>
-                <DatePicker Date="{Binding EntryDate}" Margin="10" TextColor="Black" MinimumDate="08/01/2023"/>
-                <Entry Text="{Binding Quantity}" Placeholder="Quantity" Margin="10" TextColor="Black"/>
-                <Label Text="Select the Days, Hours and Frecuency you Take your Medications" HorizontalOptions="Center" FontSize="Medium" FontAttributes="Bold"/>
-                <Picker x:Name="Days" Title="Select your Day" TitleColor="Black" SelectedItem="{Binding Day}">
-                    <Picker.Items>
-                        <x:String>Monday</x:String>
-                        <x:String>Tuesday</x:String>
-                        <x:String>Wednesday</x:String>
-                        <x:String>Thursday</x:String>
-                        <x:String>Friday</x:String>
-                        <x:String>Saturday</x:String>
-                        <x:String>Sunday</x:String>
-                        <x:String>All Days</x:String>
-                    </Picker.Items>
-                </Picker>
-                <Picker x:Name="Hours" Title="Select your Time" TitleColor="Black" SelectedItem="{Binding Hours}">
-                    <Picker.Items>                        
+        <StackLayout>
+            <Label Text="Enter Your Medications" HorizontalOptions="Center" FontSize="Title" TextColor="Red" 
+                    FontAttributes="Bold"/>
+            <ProgressBar x:Name="progress" Progress=".1"/>
+            <Frame Margin="8" BackgroundColor="White">
+                <StackLayout>
+                    <Entry x:Name="_MedicineName" Text="{Binding MedicineName}" Placeholder="Medicine Name" 
+                           Margin="10" TextColor="Black"/>
+                    <Label Text="Enter Your Date" HorizontalOptions="Start" FontSize="Body" TextColor="Black"/>
+                    <DatePicker Date="{Binding EntryDate}" Margin="10" TextColor="Black" MinimumDate="08/01/2023"/>
+                    <Entry x:Name="_Quantity" Text="{Binding Quantity}" Placeholder="Quantity" Margin="10" TextColor="Black"/>
+                    <Label Text="Select the Days, Hours and Frecuency you Take your Medications" HorizontalOptions="Center" FontSize="Medium" FontAttributes="Bold"/>
+                    <Picker x:Name="_Days" Title="Select your Day" TitleColor="Black" SelectedItem="{Binding Day}">
+                        <Picker.Items>
+                            <x:String>Monday</x:String>
+                            <x:String>Tuesday</x:String>
+                            <x:String>Wednesday</x:String>
+                            <x:String>Thursday</x:String>
+                            <x:String>Friday</x:String>
+                            <x:String>Saturday</x:String>
+                            <x:String>Sunday</x:String>
+                            <x:String>All Days</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Picker x:Name="_Hours" Title="Select your Time" TitleColor="Black" SelectedItem="{Binding Hours}">
+                        <Picker.Items>
                             <x:String>1:00</x:String>
                             <x:String>2:00</x:String>
                             <x:String>3:00</x:String>
@@ -63,12 +65,14 @@
                             <x:String>21:00</x:String>
                             <x:String>22:00</x:String>
                             <x:String>23:00</x:String>
-                            <x:String>00:00</x:String>                       
-                    </Picker.Items>                    
-                </Picker>
-                <Entry Text="{Binding Frecuency}" Placeholder="Frecuency" Margin="10" TextColor="Black"/>
-                <Button VerticalOptions="Center" Text="Upload Information" Command="{Binding UploadInformation}" />
-            </StackLayout>
-        </Frame>
+                            <x:String>00:00</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="_Frecuency" Text="{Binding Frecuency}" Placeholder="Frecuency" Margin="10" TextColor="Black"/>
+                </StackLayout>
+            </Frame>
+            <Button VerticalOptions="Center" Text="Upload Information" Command="{Binding UploadInformation}" 
+                    Clicked="btn_upload_information_Clicked"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
