@@ -9815,12 +9815,14 @@ public final class R {
     public static final int notification_template_icon_low_bg=0x7f0700a5;
     public static final int notification_tile_bg=0x7f0700a6;
     public static final int notify_panel_notification_icon_bg=0x7f0700a7;
-    public static final int preference_list_divider_material=0x7f0700a8;
-    public static final int test_custom_background=0x7f0700a9;
-    public static final int test_level_drawable=0x7f0700aa;
-    public static final int tooltip_frame_dark=0x7f0700ab;
-    public static final int tooltip_frame_light=0x7f0700ac;
-    public static final int xamarin_logo=0x7f0700ad;
+    public static final int pacient=0x7f0700a8;
+    public static final int preference_list_divider_material=0x7f0700a9;
+    public static final int schedule=0x7f0700aa;
+    public static final int test_custom_background=0x7f0700ab;
+    public static final int test_level_drawable=0x7f0700ac;
+    public static final int tooltip_frame_dark=0x7f0700ad;
+    public static final int tooltip_frame_light=0x7f0700ae;
+    public static final int xamarin_logo=0x7f0700af;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -10528,9 +10530,11 @@ public final class R {
     public static final int toolbar=0x7f0b0095;
   }
   public static final class mipmap {
-    public static final int icon=0x7f0c0000;
-    public static final int icon_round=0x7f0c0001;
-    public static final int launcher_foreground=0x7f0c0002;
+    public static final int avion_logo=0x7f0c0000;
+    public static final int icon=0x7f0c0001;
+    public static final int icon_round=0x7f0c0002;
+    public static final int launcher_foreground=0x7f0c0003;
+    public static final int medicamento=0x7f0c0004;
   }
   public static final class plurals {
     public static final int mtrl_badge_content_description=0x7f0d0000;

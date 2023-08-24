@@ -815,3 +815,7 @@ C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\res\drawable\cliente.png
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\res\drawable\logout.png
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\res\drawable\logo_medicine.png
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\res\drawable\schedule.png
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\res\drawable\pacient.png
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\res\mipmap-hdpi\avion_logo.png
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\res\mipmap-hdpi\medicamento.png

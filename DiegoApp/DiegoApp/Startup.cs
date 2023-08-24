@@ -48,6 +48,14 @@ namespace DiegoApp
                 .ConfigureHttpClient(c => c.BaseAddress= new Uri(Settings.ApiBaseUri))
                 .AddHttpMessageHandler<BaseAddressHandler>();
 
+            serviceCollection.AddRefitClient<IPacientApi>(refitSettings)
+                .ConfigureHttpClient(c => c.BaseAddress = new Uri(Settings.ApiBaseUri))
+                .AddHttpMessageHandler<BaseAddressHandler>();
+
+            serviceCollection.AddRefitClient<IScheduleApi>(refitSettings)
+                .ConfigureHttpClient(c => c.BaseAddress = new Uri(Settings.ApiBaseUri))
+                .AddHttpMessageHandler<BaseAddressHandler>();
+
             containerBuilder.Populate(serviceCollection);
 
             containerBuilder.RegisterType<AppShell>();

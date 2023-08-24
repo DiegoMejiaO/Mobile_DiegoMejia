@@ -21,3 +21,5 @@ C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstan
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.1\Views\ClientPage.xaml.g.cs
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.1\Resources\Styles\Styles.xaml.g.cs
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.1\Views\MedicinePage.xaml.g.cs
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.1\Views\SchedulePage.xaml.g.cs
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp\obj\Debug\netstandard2.1\Views\PacientPage.xaml.g.cs

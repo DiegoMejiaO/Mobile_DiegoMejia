@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:viewModels="clr-namespace:DiegoApp.ViewModels"
+             xmlns:utility="clr-namespace:DiegoApp.Helpers" 
+             utility:ViewModelLocator.AutoWireViewModel="True"
+             x:DataType="viewModels:PacientViewModel"
+             x:Class="DiegoApp.Views.PacientPage">
+    <ContentPage.Content>
+        <StackLayout Background="#f6f6f6" Margin="16">
+            <Label x:Name="pacientes" Text="Informations of Pacient" FontSize="Medium" Margin="8" FontAttributes="Bold"/>
+            <ProgressBar x:Name="progress" Progress=".1"/>            
+            <Frame Margin="8" BackgroundColor="White">
+                <StackLayout>
+                    <Entry x:Name="Cedula" Placeholder="Identification card" FontSize="Medium" 
+                           Text="{Binding IdentificationCard}"/>
+                    <Entry x:Name="Nombre" Placeholder="Name" FontSize="Medium"
+                            Text="{Binding Pacientname}"/>
+                    <Entry x:Name="Edad" Placeholder="Age" FontSize="Medium"
+                           Text="{Binding PacientAge}"/>
+                    <Picker x:Name="Sexo" Title="Sex" FontSize="Medium" SelectedItem="{Binding PacientSex}">
+                        <Picker.Items>
+                            <x:String>Female</x:String>
+                            <x:String>Male</x:String>
+                            <x:String>Lesbian</x:String>
+                            <x:String>Transsexual</x:String>
+                            <x:String>Others</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="Estatura" Placeholder="Height" FontSize="Medium"
+                            Text="{Binding PacientHeight}"/>
+                    <Entry x:Name="Peso" Placeholder="Weight" FontSize="Medium"
+                            Text="{Binding PacientWeight}"/>
+                </StackLayout>                
+            </Frame>
+            <Button VerticalOptions="Center" Text="Upload Information" Command="{Binding UploadInformation}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

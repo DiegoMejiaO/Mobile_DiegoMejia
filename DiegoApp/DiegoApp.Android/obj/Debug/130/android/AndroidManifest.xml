@@ -18,9 +18,9 @@
   <uses-feature android:glEsVersion="0x00020000" android:required="true" />
   <permission android:name="com.companyname.diegoapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.diegoapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/icon" android:label="DiegoApp.Android" android:theme="@style/MainTheme">
+  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/medicamento" android:label="DiegoApp.Android" android:theme="@style/MainTheme">
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
-    <activity android:name="crc648cf43dd613828f5a.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:icon="@mipmap/icon" android:label="DiegoApp" android:theme="@style/MainTheme">
+    <activity android:name="crc648cf43dd613828f5a.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:icon="@mipmap/medicamento" android:label="DiegoApp" android:theme="@style/MainTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
