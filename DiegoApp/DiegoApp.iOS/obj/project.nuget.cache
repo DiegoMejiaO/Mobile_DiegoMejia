@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZZT/6lIEgSGOU9dp6m0r1MEeGjbgA3pjl8IJKh6JVDAPRsuDWpc/muMANXoHREZV0VwAtbZdPP6OMTHK5zk1+g==",
+  "dgSpecHash": "x/xl7pLS16GOkZw6K6wwiwpBLAQsDCx5zhS1e7CwIPQxWLwLfJMWGZsI/hnwDa/6jXWkAC2kIF1My7b6+TcDWQ==",
   "success": true,
   "projectFilePath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp.iOS\\DiegoApp.iOS.csproj",
   "expectedPackageFiles": [
@@ -27,10 +27,13 @@
     "C:\\Users\\dmejia\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.build.download\\0.11.0\\xamarin.build.download.0.11.0.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.6\\xamarin.communitytoolkit.2.0.6.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.forms\\5.0.0.2612\\xamarin.forms.5.0.0.2612.nupkg.sha512",
-    "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2612\\xamarin.forms.maps.5.0.0.2612.nupkg.sha512"
+    "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.forms.googlemaps\\5.0.0\\xamarin.forms.googlemaps.5.0.0.nupkg.sha512",
+    "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2612\\xamarin.forms.maps.5.0.0.2612.nupkg.sha512",
+    "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.google.ios.maps\\6.0.1.1\\xamarin.google.ios.maps.6.0.1.1.nupkg.sha512"
   ],
   "logs": []
 }

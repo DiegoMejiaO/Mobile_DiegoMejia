@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "agC6+jUm1XH7QhSZPJYwhCyvaeA0xLM/evEtZ5NO4IlFILCu0I6PtSy7033sCYwPgsgC4g6ojo3i5hD4vCyvjg==",
+  "dgSpecHash": "w/+gorcJUZPcGoajvPj10ahVRL7GmqmKRIflBkOdhj/Vjk9wqDlujcbvQIa4Ea3X4gDQlHhskTIEyotawqmoNQ==",
   "success": true,
   "projectFilePath": "C:\\Proyecto Xamarin Mobile\\Mobile_DiegoMejia\\DiegoApp\\DiegoApp\\DiegoApp.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.6\\xamarin.communitytoolkit.2.0.6.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.forms\\5.0.0.2612\\xamarin.forms.5.0.0.2612.nupkg.sha512",
+    "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.forms.googlemaps\\5.0.0\\xamarin.forms.googlemaps.5.0.0.nupkg.sha512",
     "C:\\Users\\dmejia\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2612\\xamarin.forms.maps.5.0.0.2612.nupkg.sha512"
   ],
   "logs": []

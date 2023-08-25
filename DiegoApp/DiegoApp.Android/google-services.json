@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "235417203300",
+    "project_id": "notificationspush-96eef",
+    "storage_bucket": "notificationspush-96eef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235417203300:android:4326f346fe0910d195a571",
+        "android_client_info": {
+          "package_name": "com.cuchos.diegoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235417203300-8bg2ip8svn54cgus39751n3tua152q17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPLFyMHHEVBuwLQj6oktsiENmTTzBONkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235417203300-8bg2ip8svn54cgus39751n3tua152q17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

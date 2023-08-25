@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[5.0.0.2612, )"
             },
+            "Xamarin.Forms.GoogleMaps": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Xamarin.Forms.Maps": {
               "target": "Package",
               "version": "[5.0.0.2612, )"
@@ -176,6 +180,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2612, )"
+            },
+            "Xamarin.Forms.GoogleMaps": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",

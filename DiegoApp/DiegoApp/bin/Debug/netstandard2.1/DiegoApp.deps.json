@@ -18,6 +18,7 @@
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.8.0",
           "Xamarin.Forms": "5.0.0.2612",
+          "Xamarin.Forms.GoogleMaps": "5.0.0",
           "Xamarin.Forms.Maps": "5.0.0.2612"
         },
         "runtime": {
@@ -325,6 +326,17 @@
           }
         }
       },
+      "Xamarin.Forms.GoogleMaps/5.0.0": {
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2612"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
       "Xamarin.Forms.Maps/5.0.0.2612": {
         "dependencies": {
           "Xamarin.Forms": "5.0.0.2612"
@@ -525,6 +537,13 @@
       "sha512": "sha512-zQcy3NJgRJnLRWQZ2TZPCgDoTDHoYskHLutKDvz1pVNtvJ8U7kkg4mE2XATs3dAkQ+oWoqB4VOBGRk9uAfoRMw==",
       "path": "xamarin.forms/5.0.0.2612",
       "hashPath": "xamarin.forms.5.0.0.2612.nupkg.sha512"
+    },
+    "Xamarin.Forms.GoogleMaps/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+1QJx2C7Sa87rPnTsAHnmRc0q4RunQMGc5/P3emIyNunM/qXUC9sTn+s/vJEUpvheXf8STBR51xctRAdNM9rFA==",
+      "path": "xamarin.forms.googlemaps/5.0.0",
+      "hashPath": "xamarin.forms.googlemaps.5.0.0.nupkg.sha512"
     },
     "Xamarin.Forms.Maps/5.0.0.2612": {
       "type": "package",
