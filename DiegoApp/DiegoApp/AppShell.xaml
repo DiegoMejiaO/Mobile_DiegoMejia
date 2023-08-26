@@ -108,6 +108,10 @@
         <ShellContent Route="SchedulePage" ContentTemplate="{DataTemplate local:SchedulePage}" />
     </FlyoutItem>
 
+    <FlyoutItem Title="InfPacient" Icon="infpaciente.png">
+        <ShellContent Route="InfPacientPage" ContentTemplate="{DataTemplate local:InfPacientPage}" />
+    </FlyoutItem>
+
     <FlyoutItem Title="DrugStrore" Icon="maps.png">
         <ShellContent Route="MapsMedicinePage" ContentTemplate="{DataTemplate local:MapsMedicinePage}" />
     </FlyoutItem>

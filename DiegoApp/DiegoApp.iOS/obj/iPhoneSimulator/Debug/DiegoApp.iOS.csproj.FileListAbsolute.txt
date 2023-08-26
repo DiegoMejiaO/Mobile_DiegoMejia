@@ -65,6 +65,11 @@ C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSim
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.GoogleMaps.dll
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.GoogleMaps.iOS.dll
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Google.Maps.dll
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\DiegoApp.dll
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\DiegoApp.pdb
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
@@ -84,8 +89,3 @@ C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\obj\iPhoneSim
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\obj\iPhoneSimulator\Debug\DiegoApp.iOS.csproj.CopyComplete
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\obj\iPhoneSimulator\Debug\DiegoApp.iOS.exe
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\obj\iPhoneSimulator\Debug\DiegoApp.iOS.pdb
-C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
-C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll
-C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.GoogleMaps.dll
-C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.GoogleMaps.iOS.dll
-C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.iOS\bin\iPhoneSimulator\Debug\Google.Maps.dll

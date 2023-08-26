@@ -881,3 +881,4 @@ C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\android\src\crc646e4e3ae19170bac3\MapRenderer.java
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\android\src\crc64d32ffa835eadac0e\DelegateCancelableCallback.java
 C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\android\src\crc64d32ffa835eadac0e\DelegateSnapshotReadyCallback.java
+C:\Proyecto Xamarin Mobile\Mobile_DiegoMejia\DiegoApp\DiegoApp.Android\obj\Debug\130\res\drawable\infpaciente.png

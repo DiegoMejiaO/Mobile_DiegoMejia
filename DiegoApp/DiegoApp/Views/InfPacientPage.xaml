@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:DiegoApp.ViewModels"
+             xmlns:models="clr-namespace:DiegoApp.Data.Models"
+             xmlns:controls="clr-namespace:DiegoApp.Controls"
+             xmlns:helpers="clr-namespace:DiegoApp.Helpers"
+             helpers:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             x:DataType="viewModels:InfPacientViewModel"
+             x:Class="DiegoApp.Views.InfPacientPage"
+             Title="This is my Informations">
+    <ContentPage.Behaviors>
+        <xct:EventToCommandBehavior EventName="Appearing" Command="{Binding AppearingCommand}"/>
+    </ContentPage.Behaviors>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="InfPacientDefaultTemplate" x:DataType="models:InfPacient">
+                <StackLayout>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:InfPacientViewModel}}, Path=InfPacientTappedCommand}"                                      CommandParameter="{Binding .}" />
+                    </StackLayout.GestureRecognizers>
+                    <Frame CornerRadius="7" BackgroundColor="LightBlue">
+                        <Grid ColumnDefinitions="*,*" Margin="0" Padding="0" RowDefinitions="*,*">
+                            <Label Margin="0" Padding="0" HorizontalTextAlignment="Start" Grid.Column="0" Grid.Row="0" FontAttributes="Bold" Text="Identifications: "/>
+                            <Label Margin="0" Padding="0" HorizontalTextAlignment="Start" Grid.Column="1" Grid.Row="0" Text="{Binding PacientIdentification}" TextColor="Black" />
+                            <Label Margin="0" Padding="0" HorizontalTextAlignment="Start" Grid.Column="0" Grid.Row="1" FontAttributes="Bold" Text="Name: "/>
+                            <Label Margin="0" Padding="0" HorizontalTextAlignment="Start" Grid.Column="1" Grid.Row="1" Text="{Binding PacientName}" TextColor="Black"/>
+                            <Label Margin="0" Padding="0" HorizontalTextAlignment="Start" Grid.Column="0" Grid.Row="2" FontAttributes="Bold" Text="Age: "/>
+                            <Label Margin="0" Padding="0" HorizontalTextAlignment="Start" Grid.Column="1" Grid.Row="2" Text="{Binding PacientdAge}" TextColor="Black"/>
+                            <Label Margin="0" Padding="0" HorizontalTextAlignment="Start" Grid.Column="0" Grid.Row="3" FontAttributes="Bold" Text="Sex: "/>
+                            <Label Margin="0" Padding="0" HorizontalTextAlignment="Start" Grid.Column="1" Grid.Row="3" Text="{Binding PacientSex}" TextColor="Black"/>
+                            <Label Margin="0" Padding="0" HorizontalTextAlignment="Start" Grid.Column="0" Grid.Row="4" FontAttributes="Bold" Text="Height: "/>
+                            <Label Margin="0" Padding="0" HorizontalTextAlignment="Start" Grid.Column="1" Grid.Row="4" Text="{Binding PacientHeight}" TextColor="Black"/>
+                            <Label Margin="0" Padding="0" HorizontalTextAlignment="Start" Grid.Column="0" Grid.Row="5" FontAttributes="Bold" Text="Weight: "/>
+                            <Label Margin="0" Padding="0" HorizontalTextAlignment="Start" Grid.Column="1" Grid.Row="5" Text="{Binding PacientWeight}" TextColor="Black"/>
+                        </Grid>
+                    </Frame>
+                    <BoxView BackgroundColor="Transparent" HeightRequest="5" />
+                </StackLayout>
+            </DataTemplate>
+            <controls:InfPacientTemplateSelector 
+                x:Key="InfPacientTemplateSelector" 
+                DefaultTemplate="{StaticResource InfPacientDefaultTemplate}"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout IsVisible="{Binding IsNotBusy}" VerticalOptions="FillAndExpand" Margin="20,35,20,20">
+                <Label Text="My Informations" VerticalOptions="Start" HorizontalOptions="Fill" FontSize="Medium"
+                   FontFamily="calibri" FontAttributes="Bold" TextColor="Red"/>
+                <CollectionView ItemsSource="{Binding InfPacients}" EmptyView="No Clients to display"                 
+                            ItemTemplate="{StaticResource InfPacientTemplateSelector}">
+                </CollectionView>
+                <!--Loading Indicator-->
+                <ActivityIndicator IsRunning="{Binding IsBusy}" VerticalOptions="Center"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
